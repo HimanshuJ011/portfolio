@@ -29,7 +29,7 @@ const projects = [
         icon: <Icons.github className="size-3" />,
       },
     ],
-    image: "/email-marketing.png",
+    image: "./email-marketing.png",
   },
 
   {
@@ -47,7 +47,7 @@ const projects = [
       },
     ],
     image: "",
-    video: "/dbot.avif",
+    video: "./dbot.avif",
   },
 
   {
@@ -64,7 +64,7 @@ const projects = [
         icon: <Icons.github className="size-3" />,
       },
     ],
-    image: "/EMPS.png",
+    image: "./EMPS.png",
   },
 
   {
@@ -81,7 +81,7 @@ const projects = [
         icon: <Icons.github className="size-3" />,
       },
     ],
-    image: "/qrGen.png",
+    image: "./qrGen.png",
   },
 ];
 

@@ -30,7 +30,7 @@ export const skills = [
 ];
 export const experiences = [
   {
-    logoSrc: "/company/alphaloop.jpeg",
+    logoSrc: "./company/alphaloop.jpeg",
     logoAlt: "AlphaloopIT",
     title: "Full-Stack Developer (Founding team)",
     date: "Aug - 2023 — Present",
@@ -41,7 +41,7 @@ export const experiences = [
     ],
   },
   {
-    logoSrc: "/company/cncf-logo.png",
+    logoSrc: "./company/cncf-logo.png",
     logoAlt: "CNCF",
     title: "CNCF Mentee & Open-source Contributor",
     date: "Oct-2023 — Jan-2024",

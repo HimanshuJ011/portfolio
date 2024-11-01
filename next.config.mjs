@@ -1,12 +1,8 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = {
-    basePath: isProd ? '/portfolio' : '',
-    tagret: 'static',
-    distDir:"dist",
-    images:{
-        unoptimized:true
-    }
+  basePath: "/portfolio",
+  output: "export", // <=== enables static exports
+  reactStrictMode: true,
 };
 
 export default nextConfig;
